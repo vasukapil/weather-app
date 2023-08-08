@@ -37,7 +37,7 @@ const WeatherContainer = ({ citySearch }) => {
       );
       setForecastData(filteredForecast);
     } catch (error) {
-      setError("Error fetching forecast data.");
+      setError("City not found. Please enter a valid city name or there is an issue fetching the forecast");
       setForecastData([]);
     } finally {
       setLoading(false);
