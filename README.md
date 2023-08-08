@@ -1,3 +1,19 @@
+Weather App
+This is a simple weather application built using React.js that allows users to search for weather information of a specific city. It utilizes the OpenWeatherMap API to fetch weather data and display it to the user.
+
+Features
+Search for weather information of any city.
+Display current weather data including temperature, humidity, wind speed, and description.
+Show a 5-day weather forecast for the searched city.
+Toggle between Celsius and Fahrenheit units for temperature display.
+Getting Started
+Follow the instructions below to get a local copy of the project and run it on your machine.
+
+Prerequisites
+Node.js (>= 12.0.0)
+npm (>= 6.0.0)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
